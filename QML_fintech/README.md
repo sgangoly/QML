@@ -1,8 +1,8 @@
-# FinTech-Time-Series
-Quantum Machine Learning for [FinTech](https://towardsdatascience.com/ten-applications-of-ai-to-fintech-22d626c2fdac) and Time Series Data
+# Finance Time Series
+Quantum Machine Learning for Time Series Data in finance.
 
 ## [Quantum Neural Networks for FinTech](https://eandt.theiet.org/content/articles/2019/04/quantum-on-the-money-fintech-is-banking-on-the-future-of-computing/) Time Series Function Fitting
-This repository is for developing quantum neural network models for fitting one-dimensional time series data and noisy signals. It is modified from the model presented in PennyLane [Function fitting with a quantum neural network](https://pennylane.ai/qml/app/quantum_neural_net.html). We modify the code presented in the default notebook downloaded from PennyLane so that it works using synthetic data created by the user, and we train a model on several years worth of drug sales data. 
+Quantum neural network models for fitting one-dimensional time series data and noisy signals. It is modified from the model presented in PennyLane [Function fitting with a quantum neural network](https://pennylane.ai/qml/app/quantum_neural_net.html). The code presented in the default notebook downloaded from PennyLane is modified so that it works using synthetic data created by the user. A model is trained on several years worth of drug sales data. 
 
 ![alt text](noisy_sine.png)
 
@@ -117,7 +117,7 @@ After training the quantum neural network learns to smooth the noisy sine functi
 
 ![alt text](noisy_sine_trained.png)
 
-## Strawberry Fields and Optical Quantum Computing
+## References and Acknowledgement: Strawberry Fields and Optical Quantum Computing
 This example illustrates an implementation of optical quantum computing and training an optical based quantum neural network. For more information on photonic quantum computing see the [Strawberry Fields documentation](https://arxiv.org/abs/1804.03159). Strawberry Fields is a full-stack library for design, simulation, optimization, and
 quantum machine learning of continuous-variable circuits that is fully integrated into PennyLane. For more information on more general quantum nodes, see the [PennyLane documentation](https://pennylane.ai/qml/concepts/quantum_nodes.html).
 
